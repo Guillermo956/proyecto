@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css.css') }}">
+    <title>Colegio Privado Príncipe de Paz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body class="parrafo">
+    <header class="fijo">
+        <div class="logo">
+            <center><a href="/"><img src="{{ url_for('static', filename='logo.jpeg') }}" height="75" width="200"></a></center>
+        </div>
+        <div class="navbar">
+            <a href="/" class="navegador">Inicio</a>
+            <a href="/noticias" class="navegador">Noticias</a>
+            <a href="/institucion" class="navegador">Institución</a>
+            <a href="/clubes" class="navegador">Clubes</a>
+        </div>
+    </header>
+    <main>
+        <div class="texto3">
+            <h1>ÚLTIMAS NOTICIAS</h1>
+        </div>
+        <div class="fondo">
+            <div class="borde">
+                <img src="{{ url_for('static', filename='inicio5.jpeg') }}" height="320" width="450">
+                <div class="textito">
+                    <h2>Aprendizaje efectivo en casa</h2><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, in quas ratione fugiat soluta eaque officiis quos totam. Quas facere doloremque culpa perferendis ex maiores nostrum consequuntur vel, aut numquam.</p>
+                    <form>
+                        <input type="text" class="comment" placeholder="Decir algo...">
+                        <img src="{{ url_for('static', filename='enviar.png') }}" height="28" width="28" class="foto1">
+                        <img src="{{ url_for('static', filename='like.svg') }}" class="foto1"><img src="{{ url_for('static', filename='d_like.svg') }}" class="foto1">
+                    </form>
+                </div>
+            </div>
+            <div class="borde">
+                <img src="{{ url_for('static', filename='inicio5.jpeg') }}" height="320" width="450">
+                <div class="textito">
+                    <h2>Aprendizaje efectivo en casa</h2><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, in quas ratione fugiat soluta eaque officiis quos totam. Quas facere doloremque culpa perferendis ex maiores nostrum consequuntur vel, aut numquam.</p>
+                    <form>
+                        <input type="text" class="comment" placeholder="Decir algo...">
+                        <img src="{{ url_for('static', filename='enviar.png') }}" height="28" width="28" class="foto1">
+                        <img src="{{ url_for('static', filename='like.svg') }}" class="foto1"><img src="{{ url_for('static', filename='d_like.svg') }}" class="foto1">>
+                    </form>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="texto4">
+            <div class="borde">
+                <img src="{{ url_for('static', filename='inicio5.jpeg') }}" height="320" width="450">
+                <div class="textito">
+                    <h2>Aprendizaje efectivo en casa</h2><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, in quas ratione fugiat soluta eaque officiis quos totam. Quas facere doloremque culpa perferendis ex maiores nostrum consequuntur vel, aut numquam.</p>
+                    <form>
+                        <input type="text" class="comment" placeholder="Decir algo...">
+                        <img src="{{ url_for('static', filename='enviar.png') }}" height="28" width="28" class="foto1">
+                        <img src="{{ url_for('static', filename='like.svg') }}" class="foto1"><img src="{{ url_for('static', filename='d_like.svg') }}" class="foto1">
+                    </form>
+                </div>
+            </div>
+            <div class="borde">
+                <img src="{{ url_for('static', filename='inicio5.jpeg') }}" height="320" width="450">
+                <div class="textito">
+                    <h2>Aprendizaje efectivo en casa</h2><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, in quas ratione fugiat soluta eaque officiis quos totam. Quas facere doloremque culpa perferendis ex maiores nostrum consequuntur vel, aut numquam.</p>
+                    <form>
+                        <input type="text" class="comment" placeholder="Decir algo...">
+                        <img src="{{ url_for('static', filename='enviar.png') }}" height="28" width="28" class="foto1">
+                        <img src="{{ url_for('static', filename='like.svg') }}" class="foto1"><img src="{{ url_for('static', filename='d_like.svg') }}" class="foto1">
+                    </form>
+                </div>
+            </div>
+        </div><br><br>
+    </main>
+    <footer>
+        <div class="espacio">
+            <img src="{{ url_for('static', filename='logo.png') }}" height="75" width="200">
+        </div>
+        <div class="espacio">
+            <p><b>NAVEGACIÓN RÁPIDA</b></p><br>
+            <a href="/" class="navegador">Inicio</a>
+            <a href="/noticias" class="navegador">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Noticias</a><br><br>
+            <a href="/institucion" class="navegador">Institución</a>
+            <a href="/clubes" class="navegador">Clubes</a><br><br>
+        </div>
+        <div class="espacio">
+            <p><b>CONÉCTATE</b></p><br>
+            <p><a href="https://www.facebook.com/principedepazluque/" class="navegador">Facebook</a></p><br>
+            <p><a href="https://www.instagram.com/principedepazluque/" class="navegador">Instagram</a></p><br>
+        </div>
+        <div class="espacio">
+            <p><b>CONTÁCTANOS</b></p><br>
+            <p>Capitan Insfran, Luque, Paraguay</p><br>
+            <p><b>Tel:</b> +595 983 970530</p><br>
+            <p><a href=".html" class="navegador">principedepaz@gmail.com</a></p><br>
+        </div>
+    </footer>
+</body>
+</html>

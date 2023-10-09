@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css.css') }}">
+    <title>Colegio Privado Príncipe de Paz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body class="parrafo">
+    <header class="fijo">
+        <div class="logo">
+            <center><a href="/"><img src="{{ url_for('static', filename='logo.jpeg') }}" height="75" width="200"></a></center>
+        </div>
+        <div class="navbar">
+            <a href="/" class="navegador">Inicio</a>
+            <a href="/noticias" class="navegador">Noticias</a>
+            <a href="/institucion" class="navegador">Institución</a>
+            <a href="/clubes" class="navegador">Clubes</a>
+            <a href="/adminlog" class="navegador">login</a>
+        </div>
+    </header>
+    <main>
+        <div class="bgimg">
+            <div class="texto">
+                <h1>Bienvenidos a Nuestra Página Web</h1><br>
+                <h2> Del Colegio Privado Príncipe de Paz</h2><br><br>
+                <a href="#" class="boton"><b>&nbsp;Más información&nbsp;</b></a>
+            </div>
+        </div>
+        <div class="texto1">
+            <h1>Isaías 9:6~7</h1><br>
+            <p><b>6</b> Porque nos ha nacido un niño,se nos ha concedido un hijo; la soberanía reposará sobre sus hombros,y se le darán estos nombres: Consejero admirable, Dios fuerte,Padre eterno, Príncipe de paz.</p><br>
+            <p><b>7</b> Se extenderán su soberanía y su paz,y no tendrán fin.</p>
+        </div>
+        <div class="agrupar">
+            <div class="alado">
+                <div>
+                    <img src="{{ url_for('static', filename='inicio1.jpeg') }}" height="390" width="590">
+                </div>
+                <div class="texto2">
+                    <h1>Misión</h1>
+                    <p>La mision de la institución es servir a la comunidad luqueña, ofreciendo en educación con fundamentos cristianos y un nivel educativo apuntando a la exelencia.</p>
+                </div>
+            </div>
+            <div class="alado">
+                <div class="texto2">
+                    <h1>Visión</h1>
+                    <p>La vision de la escuela y colegio principe de paz es: Crecer en verdad, sabiduría y servicio, hacia la vida plena y una sociedad reconocida.</p>
+                </div>
+                <div>
+                    <img src="{{ url_for('static', filename='inicio3.jpeg') }}" height="390" width="590">
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class="historia">
+            <h1>HISTORIA</h1>
+            <p>Se inica en el año 1988, con el pre-escolar y el primer grado en ambos turnos. La institución tiene un objetivo claro, la de ofrecer e implementar  un servicion en el que destaque en la comunidad luqueña, a través de la educación y la enseñanza de valores.</p>
+        </div>
+        <br><br>
+        <h2 class="dire">Director</h2>
+        <table>
+            <tr>
+                <td><img src="{{ url_for('static', filename='dire.jpg') }}" height="300" width="300" class="foto"></td>
+                <td><img src="{{ url_for('static', filename='director.jpg') }}" height="300" width="300" class="foto"></td>
+                <td><img src="{{ url_for('static', filename='directora.jpg') }}" height="300" width="300" class="foto"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <th><h3>Orlando Wiens</h3></th>
+                <th><h3>Robert Wiens</h3></th>
+                <th><h3>Carmen Ruiz Díaz</h3></th>
+            </tr>
+            <tr>
+                <td>Dire. Administrativo</td>
+                <td>Dire. General</td>
+                <td>Dire. Académica</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <div class="espacio">
+            <img src="{{ url_for('static', filename='logo.png') }}" height="75" width="200">
+        </div>
+        <div class="espacio">
+            <p><b>NAVEGACIÓN RÁPIDA</b></p><br>
+            <a href="/" class="navegador">Inicio</a>
+            <a href="/noticias" class="navegador">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Noticias</a><br><br>
+            <a href="/institucion" class="navegador">Institución</a>
+            <a href="/clubes" class="navegador">Clubes</a><br><br>
+        </div>
+        <div class="espacio">
+            <p><b>CONÉCTATE</b></p><br>
+            <p><a href="https://www.facebook.com/principedepazluque/" class="navegador">Facebook</a></p><br>
+            <p><a href="https://www.instagram.com/principedepazluque/" class="navegador">Instagram</a></p><br>
+        </div>
+        <div class="espacio">
+            <p><b>CONTÁCTANOS</b></p><br>
+            <p>Capitan Insfran, Luque, Paraguay</p><br>
+            <p><b>Tel:</b> +595 983 970530</p><br>
+            <p><a href=".html" class="navegador">principedepaz@gmail.com</a></p><br>
+        </div>
+    </footer>
+</body>
+</html>

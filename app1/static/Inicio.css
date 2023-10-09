@@ -1,0 +1,109 @@
+* {
+    padding: 0%;
+    margin: 0%
+}
+
+.parrafo {
+    font-family: 'Quicksand',sans-serif;
+}
+
+header {
+    position: fixed;
+    overflow: hidden;
+}
+.fijo {
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+.logo {
+    margin: 1%;
+}
+
+.navbar {
+    background-color: rgb(21, 13, 63);
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-size: 16px;
+}
+.navegador {
+    text-decoration: none;
+    margin: 0% 3%;
+    color: white;
+}
+.navegador:hover {
+    color: grey;
+}
+
+.texto {
+    background-color: rgb(21, 13, 63);
+    margin-top: 9%;
+    padding: 5%;
+    color: white;
+    height: 200px;
+    width: 400px;
+}
+.boton {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 3%;
+    font-size: 20px;
+    text-align: center;
+}
+.boton:hover {
+    color: grey;
+}
+
+.bgimg {
+    padding: 10% 8%;
+    background-image: url('/app1/templates/fotos/inicio2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.texto1 {
+    padding: 5% 9%;
+    font-size: 22px;
+    text-align: center;
+}
+
+.agrupar {
+    padding: 0% 10%;
+}
+.alado {
+    display: flex;
+}
+.texto2 {
+    background: black;
+    color: white;
+    height: 254px;
+    width: auto;
+    padding: 6%;
+    font-size: 24px;
+}
+
+.historia {
+    text-align: center;
+    margin: 2% 15%;
+    font-size: 24px;
+}
+.historia h1 {
+    font-size: 45px;
+    margin: 6% 0% 2% 0%;
+}
+
+footer {
+    background-color: black;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    padding: 4% 0%;
+    height: auto;
+    width: auto;
+}
+.espacio {
+    margin: 0% 6%;
+}

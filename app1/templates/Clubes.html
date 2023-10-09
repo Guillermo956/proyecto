@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css.css') }}">
+    <title>Colegio Privado Príncipe de Paz - Clubes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body class="parrafo">
+    <header class="fijo">
+        <div class="logo">
+            <center><a href="/"><img src="{{ url_for('static', filename='logo.jpeg') }}" height="75" width="200"></a></center>
+        </div>
+        <div class="navbar">
+            <a href="/" class="navegador">Inicio</a>
+            <a href="/noticias" class="navegador">Noticias</a>
+            <a href="/institucion" class="navegador">Institución</a>
+            <a href="/clubes" class="navegador">Clubes</a>
+        </div>
+    </header>
+    <main>
+        <div class="texto8">
+            <h1>CLUBES</h1>
+            <p>Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. </p> 
+            <p>Haz clic en "Editar texto" o doble clic aquí para agregar tu contenido y cambiar la fuente.</p>
+        </div>
+        <div class="agrupar1">
+            <div class="alado">
+                <div>
+                    <img src="{{ url_for('static', filename='inicio1.jpeg') }}" height="400" width="615">
+                </div>
+                <div class="texto9">
+                    <h1>Bachillerato Científico</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non nobis totam maiores culpa incidunt harum, ullam magnam facilis, iste optio, quod voluptas esse eos reiciendis sapiente! Illo, ullam architecto!</p>
+                </div>
+            </div>
+            <div class="alado">
+                <div class="texto9">
+                    <h1>Bachillerato Técnico Informática</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias soluta magni dignissimos ducimus enim iure excepturi porro. Eius sunt, itaque mollitia quas officia voluptatem, porro consectetur repellendus unde ut quasi.</p>
+                </div>
+                <div>
+                    <img src="{{ url_for('static', filename='inicio3.jpeg') }}" height="400" width="600">
+                </div>
+            </div>
+            <br>
+        </div>
+    </main>
+    <footer>
+        <div class="espacio">
+            <img src="{{ url_for('static', filename='logo.png') }}" height="75" width="200">
+        </div>
+        <div class="espacio">
+            <p><b>NAVEGACIÓN RÁPIDA</b></p><br>
+            <a href="/" class="navegador">Inicio</a>
+            <a href="/noticias" class="navegador">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Noticias</a><br><br>
+            <a href="/institucion" class="navegador">Institución</a>
+            <a href="/clubes" class="navegador">Clubes</a><br><br>
+        </div>
+        <div class="espacio">
+            <p><b>CONÉCTATE</b></p><br>
+            <p><a href="https://www.facebook.com/principedepazluque/" class="navegador">Facebook</a></p><br>
+            <p><a href="https://www.instagram.com/principedepazluque/" class="navegador">Instagram</a></p><br>
+        </div>
+        <div class="espacio">
+            <p><b>CONTÁCTANOS</b></p><br>
+            <p>Capitan Insfran, Luque, Paraguay</p><br>
+            <p><b>Tel:</b> +595 983 970530</p><br>
+            <p><a href=".html" class="navegador">principedepaz@gmail.com</a></p><br>
+        </div>
+    </footer>
+</body>
+</html>

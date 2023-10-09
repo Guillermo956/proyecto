@@ -1,0 +1,124 @@
+* {
+    padding: 0%;
+    margin: 0%
+}
+
+.parrafo {
+    font-family: 'Quicksand',sans-serif;
+    font-size: 25px;
+}
+
+header {
+    position: fixed;
+    overflow: hidden;
+}
+.fijo {
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+.logo {
+    margin: 1%;
+}
+
+.navbar {
+    background-color: rgb(21, 13, 63);
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-size: 16px;
+}
+.navegador {
+    text-decoration: none;
+    margin: 0% 3%;
+    color: white;
+}
+.navegador:hover {
+    color: grey;
+}
+
+.texto {
+    text-align: center;
+    padding: 14.5% 5% 0.5% 5%;
+    height: 210px;
+    width: auto;
+    font-size: 24px;
+}
+.texto.h1 {
+    font-size: 35px;
+}
+
+.fondo {
+    background-color: rgb(21, 13, 63);
+    padding: 6% 8%;
+    height: 480px;
+    width: auto;
+}
+.alado {
+    display: flex;
+}
+.texto2 {
+    background: black;
+    color: white;
+    height: 298px;
+    width: 200px;
+    padding: 4%;
+    font-size: 16px;
+}
+.fondo1 {
+    margin-top: 2%;
+    padding: 13% 8%;
+    height: 300px;
+    width: auto;
+}
+.texto3 {
+    background: black;
+    color: white;
+    height: 298px;
+    width: 200px;
+    padding: 4%;
+    font-size: 16px;
+}
+.boton {
+    text-decoration: none;
+    background: rgb(31, 40, 84);
+    color: white;
+    padding: 3%;
+    font-size: 20px;
+    text-align: center;
+}
+.boton:hover {
+    color: grey;
+}
+
+.texto4 {
+    text-align: center;
+    padding: 6%;
+    width: auto;
+    font-size: 28px;
+}
+
+.niveles {
+    margin: 2% 8%;
+}
+
+table {
+    text-align: center;
+    margin: 0% 8% 5% 8%;
+    font-size: 20px;
+    width: 84%;
+}
+
+
+footer {
+    background-color: black;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    padding: 4% 0%;
+    height: auto;
+    width: auto;
+}
+.espacio {
+    margin: 0% 6%;
+}
